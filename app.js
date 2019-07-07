@@ -20,6 +20,9 @@ app.use(express.json());
 app.use(cors())
 app.use(bodyParser.json());
 app.options('*', cors())
+app.use(express.urlencoded({extended: false}));
+app.use(express.static(path.join(__dirname, '../dist/storeappfrontend')));
+app.use('/app', express.static(path.join(__dirname, '../dist/storeappfrontend')));
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
