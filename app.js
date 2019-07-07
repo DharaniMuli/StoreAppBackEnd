@@ -19,7 +19,7 @@ var usersRouter = require('./routes/users');
 app.use(express.json());
 app.use(cors())
 app.use(bodyParser.json());
-app.use(cors({credentials: true, origin: 'https://storeappfrontend.herokuapp.com'}));
+// app.use(cors({credentials: true, origin: 'https://storeappfrontend.herokuapp.com'}));
 
 app.options('*', cors())
 app.use(express.urlencoded({extended: false}));

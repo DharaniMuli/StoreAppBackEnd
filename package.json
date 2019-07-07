@@ -1,5 +1,5 @@
 {
-  "name": "backend",
+  "name": "storeappbackend",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -20,5 +20,18 @@
     "morgan": "~1.9.1",
     "nodemon": "^1.19.1",
     "pug": "2.0.0-beta11"
-  }
+  },
+  "description": "",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DharaniMuli/StoreAppBackeEnd.git"
+  },
+  "author": "Dharani and Pavan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DharaniMuli/StoreAppBackeEnd/issues"
+  },
+  "homepage": "https://github.com/DharaniMuli/StoreAppBackeEnd#readme"
 }
